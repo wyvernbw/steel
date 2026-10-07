@@ -21,12 +21,10 @@ path = "src/main.rs"
 # This has to line up with the workspace version above
 steel-core = { path = "./crates/steel-core", version = "0.8.3", features = [
     "dylibs",
-    "markdown",
     "stacker",
     "sync",
     "rooted-instructions",
     "imbl",
-    "jit2",
     "biased"
 ] }
 
